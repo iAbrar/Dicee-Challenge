@@ -6,15 +6,16 @@ document.querySelector('.img2').setAttribute('src' , 'images/dice' + randomNumbe
 
 // Show the Winner
 var displayWinner;
-if (randomNumber1 === randomNumber2){
+
+ if (randomNumber1 > randomNumber2) {
+  displayWinner = "🚩 Player 1 Wins! ";
+}
+
+else if (randomNumber1 < randomNumber2) {
+  displayWinner = "Player 2 Wins! 🚩";
+}
+
+else {
   displayWinner = "Draw!";
-}
-
-else if (randomNumber1 > randomNumber2) {
-  displayWinner = "Player 1 Wins! ";
-}
-
-else{
-  displayWinner = "Player 2 Wins! ";
 }
 document.querySelector('h1').innerHTML = displayWinner;
