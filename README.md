@@ -1,5 +1,5 @@
 # Dicee-Challenge
-This is a second project of [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/share/1013gGA0cYdltWRHw=/).
+This is a one of  [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/share/1013gGA0cYdltWRHw=/) projects.
 
 ## Project Screen Shot(s)
 Here is live [Demo](https://iabrar.github.io/Dicee-Challenge/) of the website :star2: and screen shot
